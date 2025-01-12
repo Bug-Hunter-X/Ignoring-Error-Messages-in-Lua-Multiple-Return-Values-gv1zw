@@ -1,0 +1,3 @@
+# Lua Multiple Return Value Bug
+
+This repository demonstrates a common error in Lua programming related to handling multiple return values from functions.  The `foo` function returns both a result and an error message. If either `a` or `b` is `nil`, the function returns `nil` and an error string. However, the provided code only checks for the first return value. This example highlights how easy it is to miss the error message and encounter unexpected behavior in your code. The solution demonstrates the proper handling of multiple return values in Lua.
